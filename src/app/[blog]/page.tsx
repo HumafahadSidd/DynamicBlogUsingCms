@@ -45,12 +45,7 @@ export default function page() {
 
       {/* Main Body of Blog */}
       <p className="text-lg leading-normal text-dark/80 dark:text-light/80">
-         Master Nextjs with our comprehensive full course playlist! This stepbystep series covers 
-      everything you need to build dynamic and highperformance web applications From the basics
-       of installation and setup to advanced features like serverside rendering API integration 
-       and deployment—this course has it all! Perfect for beginners and experienced developers 
-       looking to enhance their skills Start learning today and take your web development 
-       to the next level!
+      The Nissan Patrol is the best-selling vehicle in UAE in November. The Emirati new car market is up a splendid 18.7% year-on-yea in November to 29,101 registrations. This brings the year-to-date tally up 11.6% to 281,287. Toyota (-2.5%) is the only Top 13 member in negative but still dominates the…
       </p>
     <div className="pl-96 max-auto justify-center">
     <BlogCard />

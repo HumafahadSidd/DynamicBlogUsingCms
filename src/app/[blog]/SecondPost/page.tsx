@@ -2,10 +2,14 @@ import React from 'react'
 
 export default function SecondPost() {
   return (
-    <div className='h-screen flex justify-center items-center'>
-      <p>Thanks to our partnership with Central European market specialist CE Auto, we can share with you today new car sales for Bosnia & Herzegovina, a market up 24.2% year-on-year to 765 units which brings the year-to-date tally down -17.8% to 1.878. The Skoda Octavia (+50%) continues to easily dominate the models ranking at 6.3% share, while the Toyota Yaris climbs to 2nd place both in March and year-to-date. The Dacia Duster (+237.5%) is up 4 spots on February to #3, the Dacia Sandero (+162.5%) is up two to #4 and the VW Golf (+81.8%) remains in 5th. First ever Bosnian Top 10 finish for the Opel Crossland at #8.
-
-Previous month: Bosnia & Herzegovina February 2021: Skoda Octavia easily leads in market down -32.2%</p>
+    <div className='h-screen justify-center '>
+      <h1 className='text-3xl mt-2 mb-2'>Second Blog Post Page</h1>
+      <p className='justify-between ml-4 p-2'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eius dignissimos veniam dicta, optio rem placeat, tenetur nulla, repudiandae commodi suscipit voluptatum ea est ullam explicabo molestias. Odit, deserunt sequi!
+      Quis id, error mollitia culpa obcaecati doloremque ducimus commodi eaque architecto omnis perferendis cupiditate delectus! Similique nihil, suscipit eos debitis tempore blanditiis voluptatum, alias illum ipsam veritatis minima labore at!
+      Explicabo veritatis dolorum, blanditiis repellendus facilis distinctio totam aperiam. Numquam beatae mollitia culpa perspiciatis facere consequatur quos harum recusandae eligendi nobis accusamus voluptate placeat officiis quo, enim iure nemo necessitatibus.
+      Inventore esse dicta quam architecto voluptates, deserunt illum quo alias ducimus labore eos accusamus vitae provident. Accusantium magni, quis eos doloremque nobis deleniti commodi maxime aliquam atque tenetur ad inventore?
+      Sed hic nostrum repellat odit libero doloremque corrupti ut, minus porro a? Ad a aut dolores aliquid. Recusandae consequuntur deserunt harum eaque minima sapiente, magnam numquam! Amet inventore maxime dolorum?
+      Ea porro eligendi ab, iste dolorum quis culpa quod molestiae minima. Cumque cupiditate debitis fugit aliquam aperiam, quaerat autem ipsa libero iure officia nulla laboriosam fugiat neque! Libero, aperiam ad.</p>
     </div>
   )
 }
