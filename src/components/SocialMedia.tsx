@@ -26,9 +26,9 @@ import {
         {/* <Link href={"http://www.facebook.com"} target="_blank">
           <Facebook className={`w-4 h-4`} />
         </Link> */}
-        <Link href={"https://github.com/codeevolution"} target="_blank">
+        {/* <Link href={"https://github.com/codeevolution"} target="_blank">
           <Github className={`w-6 h-6 fill-dark dark:fill-light`} />
-        </Link>
+        </Link> */}
       </nav>
     );
   }
