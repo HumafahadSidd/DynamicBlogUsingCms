@@ -16,7 +16,7 @@ export default function Hero() {
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-              CATEGORY
+              discription
             </h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
               The Catalyzer
@@ -26,8 +26,8 @@ export default function Hero() {
               microdosing tousled waistcoat.
             </p>
             <div className="flex items-center flex-wrap ">
-              <Link href="/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                Learn More
+              <Link href="/blog/FirstPost" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                Read More
                 <svg
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
@@ -150,7 +150,7 @@ export default function Hero() {
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-              CATEGORY
+              Discription
             </h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
               Shooting Stars
@@ -233,8 +233,8 @@ export default function Hero() {
               microdosing tousled waistcoat.
             </p>
             <div className="flex items-center flex-wrap ">
-              <Link href="/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                Learn More
+              <Link href="blog/SecondPost" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                Read More
                 <svg
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
@@ -300,7 +300,7 @@ export default function Hero() {
               microdosing tousled waistcoat.
             </p>
             <div className="flex items-center flex-wrap">
-              <Link href="/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+              <Link href="/blog/SecondPost" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -367,7 +367,7 @@ export default function Hero() {
               microdosing tousled waistcoat.
             </p>
             <div className="flex items-center flex-wrap ">
-              <Link href="/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+              <Link href="/blog/thirdPost" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"
