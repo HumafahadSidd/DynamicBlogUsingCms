@@ -1,18 +1,22 @@
-import FooterLearn from '@/components/FooterLearn'
-import Hero from '@/components/hero'
-import MainPage from '@/components/mainpage'
+'use client'
+import Featured from '@/components/featured';
+import FooterLearn from '@/components/FooterLearn';
+// import Hero from '@/components/hero';
+// import FooterLearn from '@/components/FooterLearn';
+// import Hero from '@/components/hero';
+import MainPage from '@/components/mainpage';
+import Blog from './[blog]/page';
 
-import React from 'react'
-
-
-export default async function Home() {
-    
+const Home = () => {
   return (
     <div>
-      
       <MainPage />
-      <Hero />
+      <Featured />
+      <Blog />
+      {/* <Hero /> */}
       <FooterLearn />
     </div>
-  )
+  );
 }
+
+export default Home;

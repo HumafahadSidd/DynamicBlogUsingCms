@@ -1,6 +1,5 @@
-import { defineField } from "sanity";
+import { defineField } from 'sanity';
 
-// sanity/pet.ts
 export default {
     name: 'post',
     type: 'document',
@@ -11,37 +10,31 @@ export default {
             type: 'string',
             title: 'Name'
         },
-        //slug field
-        defineField(
-            {
+        defineField({
             name: 'slug',
             type: 'slug',
             title: 'Slug',
-            description: 'tilte of the post',
+            description: 'Title of the post',
             options: {
                 source: 'name',
                 maxLength: 96
             }
         }),
-        defineField(
-            {
+        defineField({
             name: 'summary',
             type: 'text',
             title: 'Summary',
-            description: 'short summary of the post',
+            description: 'Short summary of the post'
         }),
-        defineField(
-            {
+        defineField({
             name: 'image',
             type: 'image',
-            title: 'Image',
-}),
-        defineField(
-            {
+            title: 'Image'
+        }),
+        defineField({
             name: 'content',
             type: 'array',
-            of: [{type: 'block'}],
-            }
-        ),
+            of: [{ type: 'block' }]
+        })
     ]
 }

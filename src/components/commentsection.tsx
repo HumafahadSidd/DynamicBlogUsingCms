@@ -30,7 +30,7 @@ const CommentSection: React.FC = () => {
   return (
     <div className="comment-section border rounded-sm shadow-md p-4 w-full max-w-4xl mx-auto">
       <textarea
-        className="border rounded-sm shadow-md p-2 w-full"
+        className="border rounded-sm shadow-md p-2 w-full text-white bg-slate-400"
         name="comment"
         id="comment"
         placeholder="Write your comment here"

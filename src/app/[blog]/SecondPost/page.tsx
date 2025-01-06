@@ -1,15 +1,65 @@
 import React from 'react'
-
+import Image from 'next/image'
+import CommentSection from '@/components/commentsection'
 export default function SecondPost() {
   return (
-    <div className='h-screen justify-center '>
-      <h1 className='text-3xl mt-2 mb-2'>Second Blog Post Page</h1>
-      <p className='justify-between ml-4 p-2'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eius dignissimos veniam dicta, optio rem placeat, tenetur nulla, repudiandae commodi suscipit voluptatum ea est ullam explicabo molestias. Odit, deserunt sequi!
-      Quis id, error mollitia culpa obcaecati doloremque ducimus commodi eaque architecto omnis perferendis cupiditate delectus! Similique nihil, suscipit eos debitis tempore blanditiis voluptatum, alias illum ipsam veritatis minima labore at!
-      Explicabo veritatis dolorum, blanditiis repellendus facilis distinctio totam aperiam. Numquam beatae mollitia culpa perspiciatis facere consequatur quos harum recusandae eligendi nobis accusamus voluptate placeat officiis quo, enim iure nemo necessitatibus.
-      Inventore esse dicta quam architecto voluptates, deserunt illum quo alias ducimus labore eos accusamus vitae provident. Accusantium magni, quis eos doloremque nobis deleniti commodi maxime aliquam atque tenetur ad inventore?
-      Sed hic nostrum repellat odit libero doloremque corrupti ut, minus porro a? Ad a aut dolores aliquid. Recusandae consequuntur deserunt harum eaque minima sapiente, magnam numquam! Amet inventore maxime dolorum?
-      Ea porro eligendi ab, iste dolorum quis culpa quod molestiae minima. Cumque cupiditate debitis fugit aliquam aperiam, quaerat autem ipsa libero iure officia nulla laboriosam fugiat neque! Libero, aperiam ad.</p>
-    </div>
-  )
-}
+    
+          <div className="container mx-auto px-5 py-24">
+            <div className="flex flex-wrap w-full mb-20">
+              <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+                <h1 className="text-2xl sm:text-3xl font-medium title-font mb-2 text-gray-900">
+                  Pitchfork Kickstarter Taxidermy
+                </h1>
+                <div className="h-1 w-20 bg-indigo-500 rounded"></div>
+              </div>
+              <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+                Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.
+              </p>
+            </div>
+            <div className="flex flex-wrap -m-4">
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="bg-gray-100 p-6 rounded-lg">
+                  <Image className="h-40 rounded w-full object-cover object-center mb-6" src="/sea1.webp" alt="content" width={720} height={400} />
+                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+                  <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
+                  <p className="leading-relaxed text-base">
+                    Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.
+                  </p>
+                </div>
+              </div>
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="bg-gray-100 p-6 rounded-lg">
+                  <Image className="h-40 rounded w-full object-cover object-center mb-6" src="/Rectangle 13.png" alt="content" width={721} height={401} />
+                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+                  <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Colosseum Roma</h2>
+                  <p className="leading-relaxed text-base">
+                    Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.
+                  </p>
+                </div>
+              </div>
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="bg-gray-100 p-6 rounded-lg">
+                  <Image className="h-40 rounded w-full object-cover object-center mb-6" src="/mount.webp" alt="content" width={722} height={402} />
+                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+                  <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Great Pyramid of Giza</h2>
+                  <p className="leading-relaxed text-base">
+                    Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.
+                  </p>
+                </div>
+              </div>
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="bg-gray-100 p-6 rounded-lg">
+                  <Image className="h-40 rounded w-full object-cover object-center mb-6" src="/sea1.webp" alt="content" width={723} height={403} />
+                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+                  <h2 className="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
+                  <p className="leading-relaxed text-base">
+                    Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <CommentSection />
+          </div>
+        )
+      }
+    
